@@ -3,33 +3,307 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Teens | Portfolio</title>
+    <title>Tina Shrestha | UX/UI Designer Portfolio</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   </head>
   <body>
-    <p>HI,I’M Tina Shrestha</p>
-    <p>Creative UX/UI Designer</p>
-    <p>
-      i’m a UL/UX Designer with 2+ year of experience in the related field. I
-      have helped business to grow and succed through strong branding, engaging
-      design, and strategic
-    </p>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <div class="logo">Tina.</div>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
 
-    <div>Resume (click button)</div> 
-    <p>Project Gallery</p>
-    <p>ABOUT ME</p>
-    <p>More than 2+ Year Designing Experienced</p>
-    <p>
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum."
-    </p>
-    <div>Resume</div>
-    <p>SKILLS</p>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <h1>HI, I'M <span>Tina Shrestha</span></h1>
+          <p class="subtitle">Creative UX/UI Designer</p>
+          <p>
+            I'm a UX/UI Designer with 2+ years of experience in the related field. 
+            I have helped businesses to grow and succeed through strong branding, 
+            engaging design, and strategic thinking.
+          </p>
+          <div class="btn-group">
+            <a href="#" class="btn">Download Resume</a>
+            <a href="#projects" class="btn btn-outline">View Projects</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <!-- Placeholder for profile image -->
+          <div class="profile-placeholder">
+            <i class="fas fa-user"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <h2>ABOUT ME</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>More than 2+ Year Designing Experienced</h3>
+            <p>
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+              commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur."
+            </p>
+            <p>
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+              deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste 
+              natus error sit voluptatem accusantium doloremque laudantium.
+            </p>
+            <a href="#" class="btn">Download Resume</a>
+          </div>
+          <div class="about-stats">
+            <div class="stat-item">
+              <i class="fas fa-briefcase"></i>
+              <h3>2+</h3>
+              <p>Years Experience</p>
+            </div>
+            <div class="stat-item">
+              <i class="fas fa-project-diagram"></i>
+              <h3>24+</h3>
+              <p>Projects Completed</p>
+            </div>
+            <div class="stat-item">
+              <i class="fas fa-smile"></i>
+              <h3>18+</h3>
+              <p>Happy Clients</p>
+            </div>
+            <div class="stat-item">
+              <i class="fas fa-award"></i>
+              <h3>5+</h3>
+              <p>Awards Received</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2>SKILLS</h2>
+        <div class="skills-container">
+          <div class="skill-category">
+            <h3><i class="fas fa-palette"></i> Design</h3>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>UI/UX Design</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Wireframing</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Prototyping</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="80"></div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="skill-category">
+            <h3><i class="fas fa-code"></i> Development</h3>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>HTML/CSS</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>JavaScript</span>
+                <span>70%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="70"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>React</span>
+                <span>65%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="65"></div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="skill-category">
+            <h3><i class="fas fa-tools"></i> Tools</h3>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Figma</span>
+                <span>95%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="95"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Adobe XD</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Sketch</span>
+                <span>75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="75"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2>PROJECT GALLERY</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-img">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <div class="project-info">
+              <h3>Mobile Banking App</h3>
+              <p>A modern banking application with intuitive UI and seamless user experience.</p>
+              <div class="project-tags">
+                <span>UI Design</span>
+                <span>UX Research</span>
+                <span>Mobile</span>
+              </div>
+              <a href="#" class="btn btn-outline">View Details</a>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <div class="project-img">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+            <div class="project-info">
+              <h3>E-commerce Website</h3>
+              <p>Redesigned an e-commerce platform to improve conversion rates and user engagement.</p>
+              <div class="project-tags">
+                <span>Web Design</span>
+                <span>E-commerce</span>
+                <span>Responsive</span>
+              </div>
+              <a href="#" class="btn btn-outline">View Details</a>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <div class="project-img">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="project-info">
+              <h3>Analytics Dashboard</h3>
+              <p>Created a comprehensive dashboard for data visualization and business insights.</p>
+              <div class="project-tags">
+                <span>Dashboard</span>
+                <span>Data Viz</span>
+                <span>UI Design</span>
+              </div>
+              <a href="#" class="btn btn-outline">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-about">
+            <h2>Tina Shrestha</h2>
+            <p>Creative UX/UI Designer with 2+ years of experience helping businesses grow through engaging design and strategic thinking.</p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-dribbble"></i></a>
+              <a href="#"><i class="fab fa-behance"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-contact">
+            <h3>Contact Info</h3>
+            <div class="contact-info">
+              <i class="fas fa-envelope"></i>
+              <span>hello@tinashrestha.com</span>
+            </div>
+            <div class="contact-info">
+              <i class="fas fa-phone"></i>
+              <span>+1 (123) 456-7890</span>
+            </div>
+            <div class="contact-info">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>New York, NY</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="copyright">
+          <p>&copy; 2023 Tina Shrestha. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
 
     <script src="js/script.js"></script>
   </body>
